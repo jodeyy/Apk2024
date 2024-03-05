@@ -6,8 +6,31 @@
 body{
     background-color: rgb(56, 48, 85);
     font-family: calibri;
-    color: aliceblue;
+    color: rgb(34, 102, 161);
 }
+
+@media screen and (min-width : 600px){
+    body{
+        background-color: yellow;
+    }
+    .col-sm-6{
+        width: 50%;
+        float: left;
+    }
+
+}
+  
+/* desktop : layout tabel yang ditampilkan 4 kolom */
+@media screen and (min-width : 992px){
+    body{
+        background-color: rgb(0, 255, 85);
+    }
+    .col-lg-6{
+    width: 25%;
+    float: left;
+}
+}
+
 
 /* class selector */
 
@@ -40,4 +63,10 @@ body{
 .col2{
     width: 50%;
     float: left;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
 }
