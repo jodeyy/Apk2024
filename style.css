@@ -17,6 +17,10 @@ body{
         width: 50%;
         float: left;
     }
+    .col-sm-n{
+        width: 100%;
+        float: left;
+    }
 
 }
   
@@ -28,7 +32,16 @@ body{
     .col-lg-6{
     width: 25%;
     float: left;
-}
+    }
+    .col-gg-2{
+        width: 50%;
+        float: left;
+    }
+    .col-lg-4{
+        width: 33.33%;
+        float: left;
+    }
+
 }
 
 
