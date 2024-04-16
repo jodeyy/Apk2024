@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
 <body>
-    <h1>Testimoni</h1>
+    <div class="container">
+     <div class"row">
+        <div class="col-lg-4">
+            <h2>Testimoni</h2>
+        <div class="mb-3">
+            <label for="" class="form-label">Nama</label><br />
+            <input type="text" class="form-control" id="nama" />
+        <div class="mb-3">
+            <label for="" class="form-label">Testimoni</label><br />
+            <input type="text" class="form-control" id="testimoni" />
+        </div>
+        <button class="btn btn-primary" id="btnSimpan">Simpan</button>
+    </div>
+    <div class="col-lg-6">
+        <h2>List</h2>
+        <table class="table">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Testimoni</th>
+            </tr>
+        </thead>
+        <tbody id="list"></tbody>
+    </table>
+    </div>
+</div>
+
+
+ <script src="script.js"></script>
+
 </body>
 </html>
